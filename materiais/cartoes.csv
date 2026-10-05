@@ -1,0 +1,60 @@
+Qual função embutida do Python é utilizada para exibir mensagens ou dados no terminal?,A função `print()`.
+Como deve ser lido o sinal `=` na instrução de atribuição `idade = 20` em Python?,"Lê-se como ""recebe"": a variável `idade` recebe o valor `20`."
+Qual é o tipo de dado retornado por padrão pela função de leitura `input()` em Python?,Retorna sempre uma string (`str`).
+Como converter uma string numérica (ex: `'25'`) em um número inteiro em Python?,"Utilizando a função `int()`, por exemplo: `int('25')`."
+Qual função converte um valor para o tipo número de ponto flutuante (decimal) em Python?,A função `float()`.
+Quais são os dois únicos valores possíveis para o tipo primitivo booleano (`bool`) em Python?,`True` e `False` (escritos com a primeira letra maiúscula).
+Qual função nativa permite verificar o tipo primitivo de uma variável em Python?,A função `type()`.
+Qual operador aritmético realiza a divisão inteira (descartando as casas decimais) em Python?,O operador de duas barras `//`.
+Qual operador aritmético calcula o resto de uma divisão em Python?,O operador de porcentagem `%` (módulo).
+Qual operador é utilizado para realizar a potenciação (exponenciação) em Python?,O operador de dois asteriscos `**`.
+Qual operador relacional é utilizado para comparar se dois valores são iguais em Python?,O operador de dois sinais de igual `==`.
+Qual operador relacional verifica se dois valores são diferentes em Python?,O operador `!=`.
+O que retorna a expressão lógica `True and False` em Python?,"Retorna `False`, pois o operador `and` exige que ambas as condições sejam verdadeiras."
+O que retorna a expressão lógica `True or False` em Python?,"Retorna `True`, pois o operador `or` exige que pelo menos uma das condições seja verdadeira."
+Qual é a função do operador lógico `not` em Python?,Inverter o valor booleano (transforma `True` em `False` e `False` em `True`).
+Qual palavra-chave inicia uma estrutura condicional em Python?,A palavra-chave `if`.
+"Qual palavra-chave é usada em Python para testar condições intermediárias (""senão se"")?",A palavra-chave `elif`.
+Qual bloco condicional é executado caso nenhuma condição anterior (`if` ou `elif`) seja verdadeira?,O bloco `else`.
+"Qual caractere é obrigatório ao final das linhas `if`, `elif` e `else` em Python?",O caractere de dois-pontos (`:`).
+Como o Python delimita os blocos de código pertencentes a um `if` ou laço de repetição?,Através da indentação (espaço/tabulação à esquerda do código).
+Quando é mais recomendado utilizar a estrutura de repetição `for` em vez do `while`?,Quando se sabe previamente o limite ou a quantidade exata de repetições.
+"Quais valores são gerados pelo laço `for c in range(1, 5):`?","Os números `1`, `2`, `3` e `4` (o limite superior `5` não é incluído)."
+"O que faz a instrução `range(0, 10, 2)` em um laço `for`?","Gera uma sequência de `0` até `8`, pulando de 2 em 2 (`0, 2, 4, 6, 8`)."
+Quando é mais adequado utilizar a estrutura de repetição `while`?,"Quando não se sabe previamente quantas repetições serão necessárias, dependendo de uma condição lógica."
+O que acontece se a condição de um laço `while` nunca se tornar falsa?,O programa entra em um laço infinito (loop infinito).
+Como declarar uma lista vazia usando colchetes em Python?,`minha_lista = []`
+As listas em Python são mutáveis ou imutáveis?,"São mutáveis (seus elementos podem ser alterados, adicionados ou removidos)."
+Qual é o índice numérico do primeiro elemento de uma lista em Python?,O índice `0`.
+Qual método adiciona um elemento ao final de uma lista existente?,"O método `.append()`, por exemplo: `lista.append('novo_item')`."
+Qual método insere um elemento em um índice específico de uma lista?,"O método `.insert(índice, elemento)`."
+Como remover a primeira ocorrência de um valor específico em uma lista?,Utilizando o método `.remove(valor)`.
+Qual método remove e retorna o último elemento de uma lista (ou o elemento do índice passado)?,O método `.pop()`.
+Qual função embutida retorna o número total de elementos em uma lista?,A função `len()`.
+Como ordenar os elementos de uma lista numérica em ordem crescente?,Utilizando o método `.sort()`.
+Como organizar uma lista em ordem decrescente utilizando o método `.sort()`?,Utilizando `lista.sort(reverse=True)`.
+Para que serve a função `enumerate()` em um laço `for` sobre uma lista?,Permite obter simultaneamente o índice e o valor de cada elemento da lista durante a iteração.
+Como criar uma cópia independente de uma lista `a` para `b` em Python sem ligar suas referências?,Utilizando fatiamento (`b = a[:]`) ou o método `.copy()` (`b = a.copy()`).
+Qual símbolo identifica a declaração de um dicionário em Python?,As chaves `{}`.
+Como são chamados os elementos que associam identificadores a dados em um dicionário?,Pares chave-valor (`key: value`).
+"Como acessar o valor da chave `'nome'` no dicionário `pessoa = {'nome': 'Ana', 'idade': 20}`?",`pessoa['nome']`
+Como adicionar uma nova chave `'cidade'` com o valor `'Rio'` ao dicionário `dados`?,`dados['cidade'] = 'Rio'`
+Como remover uma chave e seu valor de um dicionário `dados`?,Utilizando a instrução `del dados[chave]`.
+Qual método de dicionário retorna todas as suas chaves?,O método `.keys()`.
+Qual método de dicionário retorna apenas todos os seus valores?,O método `.values()`.
+Qual método de dicionário retorna pares contendo a chave e o valor em tuplas?,O método `.items()`.
+Qual palavra-chave é usada para definir uma função personalizada em Python?,A palavra-chave `def`.
+O que são parâmetros de uma função em Python?,São variáveis declaradas nos parênteses da função que recebem os valores passados em sua chamada.
+Qual instrução é usada dentro de uma função para enviar um valor de retorno a quem a chamou?,A instrução `return`.
+O que uma função sem a instrução `return` retorna por padrão ao ser atribuída a uma variável?,Retorna o valor especial `None`.
+O que significa o caractere `*` antes de um parâmetro (ex: `def soma(*num):`)?,"Significa desempacotamento/empacotamento de parâmetros, permitindo receber múltiplos valores em uma tupla."
+Qual estrutura é usada para capturar e tratar exceções sem interromper o programa em Python?,O bloco `try` ... `except`.
+"Em uma estrutura `try` ... `except`, quando o código dentro do `except` é executado?",Somente quando ocorre um erro/exceção durante a execução do bloco `try`.
+Qual função embutida do Python é usada para abrir ou criar arquivos de texto no disco?,A função `open()`.
+Qual modo de abertura (`mode`) da função `open()` deve ser usado para leitura de um arquivo?,O modo `'r'` (read).
+Qual modo de abertura (`mode`) da função `open()` sobrescreve o conteúdo de um arquivo existente?,O modo `'w'` (write).
+Por que é essencial chamar o método `.close()` após terminar de manipular um arquivo em Python?,Para liberar os recursos do sistema operacional alocados para aquele arquivo.
+Qual formato de texto leve é muito semelhante aos dicionários em Python e amplamente usado em APIs?,O formato JSON.
+"No módulo nativo `json`, qual função converte uma string formatada em JSON para um dicionário Python?",A função `json.loads()`.
+"No módulo `json`, qual função converte um dicionário Python em uma string no formato JSON?",A função `json.dumps()`.
+Para que serve um arquivo com extensão `.env` em um projeto Python?,"Para armazenar variáveis de ambiente com dados sensíveis (senhas, chaves de API) sem deixá-los visíveis no código fonte."
